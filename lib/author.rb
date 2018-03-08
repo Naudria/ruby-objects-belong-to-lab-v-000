@@ -1,7 +1,8 @@
 class Author
-attr_accessor :author
+attr_accessor :name :author
 
-def initialize(author)
+def initialize
   @author = author
+  @name = name 
 end
 end
