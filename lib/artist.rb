@@ -1,3 +1,4 @@
-class Artist
+class Artist(name)
+  @name = name
 
 end
